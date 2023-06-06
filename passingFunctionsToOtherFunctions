@@ -1,0 +1,19 @@
+let birthYears=[1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999];
+
+function getResultArray(arr, func){
+    let result =[];
+
+    for(let i=0; i< arr.length; i++){
+        let value = func(arr[i]);
+        result.push(value);
+    }
+    return result;
+
+}
+function calculateAge(birthYears){
+    return 2023 - birthYears;
+}
+
+//we don't use parenthesis after calculateage because we are passing it only
+let ages = getResultArray(birthYears, calculateAge);
+console.log(ages);
