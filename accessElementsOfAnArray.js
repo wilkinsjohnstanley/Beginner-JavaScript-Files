@@ -11,7 +11,7 @@ const todos=[
     },
     {
         id:3,
-        text:'Dentist at',
+        text:'Dentist appointment',
         isCompleted: false
     },
 ];
