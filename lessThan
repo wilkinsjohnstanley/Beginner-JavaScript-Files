@@ -1,0 +1,11 @@
+function lessThan (x, y){
+   if (x<y){
+      return true;
+   }
+    else{
+      return false;
+    }
+}
+console.log(3, 4)
+
+//returns true
